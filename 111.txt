@@ -1,0 +1,11 @@
+╣зр╩╢н╡Бйт
+<?php
+function shuzi($num){
+ if($num==1){
+ 	return $num;
+ }
+ return $num*shuzi($num-1);      
+}
+echo shuzi(4);
+
+?>
